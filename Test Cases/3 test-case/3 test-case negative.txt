@@ -1,0 +1,24 @@
+116689:The password recovery on the site with the invalid data
+Show / Hide direct link  Show / Hide direct link
+Test Status: Принят
+ 
+Version 1
+Summary
+The password recovery on the site with the invalid data
+
+Preconditions
+The "Forgotten Password" page is opened on the site: http://opencart.qatestlab.net/
+The user is not registered on the site.
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "E-Mail Address" field with the invalid data: rabotaet-netrogai@gmailcom.
+
+The validation message about the incorrect email is displayed.
+
+Edit	Delete step	Insert step
+2	
+Click on the "CONTINUE" button.
+
+The notification about the invalid email is displayed on the "Forgotten Password" page.
+
+Edit	Delete step	Insert step

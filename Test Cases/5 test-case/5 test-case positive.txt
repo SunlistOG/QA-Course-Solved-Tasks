@@ -1,0 +1,22 @@
+116810:The newsletters' subscription with the valid data
+Show / Hide direct link  Show / Hide direct link
+Test Status: Принят
+ 
+Version 1
+Summary
+The newsletters' subscription with the valid data
+
+Preconditions
+The site is opened: http://opencart.qatestlab.net/
+The user is not registered on the site.
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "Newsletter email" field with the valid data.
+
+The "Newsletter email" field is displayed as filled.
+
+Edit	Delete step	Insert step
+2	
+Click on the "SUBSCRIBE" button.
+
+The notification about the successful subscription is displayed on the site.

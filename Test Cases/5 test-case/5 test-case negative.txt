@@ -1,0 +1,22 @@
+116812:The newsletters' subscription with the invalid data
+Show / Hide direct link  Show / Hide direct link
+Test Status: Принят
+ 
+Version 1
+Summary
+The newsletters' subscription with the invalid data
+
+Preconditions
+The site is opened: http://opencart.qatestlab.net/
+The user is not registered on the site.
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "Newsletter email" field with the invalid data: "genieofthelamp@protonmailcom"
+
+The validation message about the incorrect email is displayed.
+
+Edit	Delete step	Insert step
+2	
+Click on the "CONTINUE" button.
+
+The notification about the invalid email is displayed on the site.

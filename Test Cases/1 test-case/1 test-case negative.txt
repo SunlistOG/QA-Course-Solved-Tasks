@@ -1,0 +1,29 @@
+116660:The authorization of user on the site with the valid data
+
+Test Status: Принят
+ 
+Version 1
+Summary
+The authorization of user on the site with the valid data
+
+Preconditions
+1. The user is registered previously on the site.
+2. The authorization page is opened on the site: http://opencart.qatestlab.net/
+
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "E-Mail Address" field with the valid data.
+
+The "E-Mail Address" field is displayed as filled.
+
+Edit	Delete step	Insert step
+2	
+Fill in the "Password" field with the valid data.
+
+The "Password" field is displayed filled as the masked dots.
+
+Edit	Delete step	Insert step
+3	
+Click on the "LOGIN" button.
+
+The authorization is successful, the user is redirected to the "My Account" page.

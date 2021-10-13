@@ -1,0 +1,24 @@
+116681:The registration of user on the site with the valid data
+Show / Hide direct link  Show / Hide direct link
+Test Status: Принят
+ 
+Version 1
+Summary
+The registration of user on the site with the valid data
+
+Preconditions
+The "Register Account" page is opened on the site: http://opencart.qatestlab.net/
+The user is not registered on the site.
+#	Step actions	Expected Results	 		 
+1	
+Fill in all required fields with the valid data.
+
+All fields are filled in (The "Password" field is masked by dots).
+
+Edit	Delete step	Insert step
+2	
+Click the "I have read and agree to the Privacy Policy" radio button and click the "CONTINUE" button.
+
+ The notification about successful registration is displayed on the site.
+
+Edit	Delete step	Insert step

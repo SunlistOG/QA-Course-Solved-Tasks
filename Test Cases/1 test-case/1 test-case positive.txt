@@ -1,0 +1,29 @@
+116662:The authorization of user on the site with the invalid data
+
+Test Status: Принят
+ 
+Version 1
+Summary
+The authorization of user on the site with the invalid data
+
+Preconditions
+1. The user is registered previously on the site.
+2. The authorization page is opened on the site: http://opencart.qatestlab.net/
+
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "E-Mail Address" field with the invalid data: cyberpank2077@gmailcom
+
+The validation message about the incorrect email is displayed.
+
+Edit	Delete step	Insert step
+2	
+Fill in the "Password" field with the invalid data: #%1Cj$m
+
+The validation message about incorrect password is displayed.
+
+Edit	Delete step	Insert step
+3	
+Click on the "LOGIN" button.
+
+The notification about the input of invalid data is displayed on the "Login" page.

@@ -1,0 +1,28 @@
+116687:The registration of user on the site with the invalid data
+Show / Hide direct link  Show / Hide direct link
+Test Status: Принят
+ 
+Version 1
+Summary
+The registration of user on the site with the invalid data
+
+Preconditions
+The "Register Account" page is opened on the site: http://opencart.qatestlab.net/
+The user is not registered on the site.
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "E-Mail" field with the invalid data: poziloymaster@gmailcom
+
+The validation message about the incorrect email is displayed.
+
+Edit	Delete step	Insert step
+2	
+Fill in the other field with the valid data.
+
+All fields are filled in (The "Password" field is masked by dots).
+
+Edit	Delete step	Insert step
+3	
+Click the "I have read and agree to the Privacy Policy" radio button and click the "CONTINUE" button.
+
+ The validation message about the invalid email is displayed on the "Register Account" page.

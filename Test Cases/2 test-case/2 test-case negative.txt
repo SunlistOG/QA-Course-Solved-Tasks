@@ -1,0 +1,28 @@
+116806:The password changing on the site with the invalid data
+
+Test Status: Принят
+ 
+Version 1
+Summary
+The password changing on the site with the invalid data
+
+Preconditions
+The user is registered previously on the site.
+The change password page is opened on the site: http://opencart.qatestlab.net/
+#	Step actions	Expected Results	 		 
+1	
+Fill in the "Password" field with the invalid data: @#!K1
+
+The validation message about incorrect password confirm is displayed, and the "Password" field is highlighted in red.
+
+Edit	Delete step	Insert step
+2	
+Fill in the "Password Confirm" field with the invalid data: @#!K1
+
+The validation message about incorrect password confirm is displayed, and the "Password Confirm" field is highlighted in red.
+
+Edit	Delete step	Insert step
+3	
+Click on the "CONTINUE" button.
+
+The notification about the input of invalid data is displayed on the "Change Password" page.
